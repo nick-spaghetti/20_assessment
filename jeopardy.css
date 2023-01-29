@@ -56,3 +56,11 @@ button {
 button:focus {
   background-color: hsl(60, 8%, 68%);
 }
+
+#spin-container {
+  visibility: hidden;
+}
+
+#spin-container.show {
+  visibility: visible;
+}
